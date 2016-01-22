@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Autocomplete Override",
+  "description": "Disable all instances of 'autocomplete:off' in a form",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png"
+  },
+  "content_scripts": [ {
+      "js": [ "autocomplete-override.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ]
+}
