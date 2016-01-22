@@ -1,5 +1,5 @@
 # autocomplete-override (for Chrome)
-Disable all instances of 'autocomplete:off' in a form
+Disable all instances of 'autocomplete=off' in a form
 
 To mitigate security concerns, this is meant only for local use in developer mode.
 
